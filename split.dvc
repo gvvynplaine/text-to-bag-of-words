@@ -1,0 +1,14 @@
+cmd: python split_train_test.py data/Posts.tsv 0.2 20170426 data/Posts-train.tsv data/Posts-test.tsv
+deps:
+- md5: 40997100e5257ff0120b49b401dfba57
+  path: split_train_test.py
+- md5: 7a28698e1ac30bb9b5f0f7ac595b73ad
+  path: data/Posts.tsv
+md5: 5ef8d924fa226705829342eae300f450
+outs:
+- cache: true
+  md5: ea4dec866e3f4c734e58909ac1b248a3
+  path: data/Posts-train.tsv
+- cache: true
+  md5: 16a56273536d8519696a484e2a37ffe8
+  path: data/Posts-test.tsv

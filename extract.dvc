@@ -1,0 +1,9 @@
+cmd: tar -xvf data/Posts.xml.tgz -C data
+deps:
+- md5: 2f412200dc53fb97dcac0353b609d199
+  path: data/Posts.xml.tgz
+md5: fabc15ed44c71020744e5cdd7a665f50
+outs:
+- cache: true
+  md5: a304afb96060aad90176268345e10355
+  path: data/Posts.xml
