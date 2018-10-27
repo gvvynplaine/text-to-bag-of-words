@@ -1,0 +1,5 @@
+md5: 19804bad370d1dd60fe55306e2bf379d
+outs:
+- cache: true
+  md5: 2f412200dc53fb97dcac0353b609d199
+  path: Posts.xml.tgz
